@@ -1,0 +1,2 @@
+# Java
+lotto, randomnum, StuScr
