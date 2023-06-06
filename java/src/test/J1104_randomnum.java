@@ -22,7 +22,7 @@ public class J1104_randomnum {
 			System.out.println("번호를 입력하세요");
 			num[count] = scan.nextInt();
 			if (r_num == num[count]) {
-				System.out.println("같습니다");
+				System.out.println("맞췄습니다!");
 				System.out.println("RD.N: " + r_num);
 				System.out.println("my: " + num[count]);
 				System.out.println("count: " + (count+1));

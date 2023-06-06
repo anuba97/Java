@@ -29,7 +29,7 @@ public class J1104_lotto {
 		
 		// 4. 6개 숫자 넣기
 		while (count<6) {
-			System.out.println("번호를 넣으세요");
+			System.out.println("번호를 입력하세요");
 			input[count]=scan.nextInt();
 			count++;
 		}//while
@@ -60,7 +60,7 @@ public class J1104_lotto {
         System.out.println("[[당첨된 번호와 갯수]]");
         System.out.println("당첨번호 갯수"+num);
         if(num==0) {
-        	System.out.println("당첨번호 없음");
+        	System.out.println("당첨번호가 없습니다...");
         }else {
         	for (int i = 0; i < num; i++) {
     			

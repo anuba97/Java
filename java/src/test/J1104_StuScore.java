@@ -28,7 +28,7 @@ public class J1104_StuScore {
 			System.out.println("4.등수 기입");
 			System.out.println("0.종료");
 			System.out.println("--------------------------");
-			System.out.println("원하는 숫자를 넣으세요");
+			System.out.println("원하는 항목의 번호를 입력하세요.");
 			System.out.println();
 
 			choice = scan.nextInt();
